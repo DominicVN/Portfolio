@@ -23,9 +23,9 @@ main section{
 }
 
 .sidebar h1{
-    text-align: center;
-    font-family: "rubik";
-    margin-top: 50px;
+  text-align: center;
+  font-family: "rubik";
+  margin-top: 50px;
 }
 
 .avatar {
@@ -38,11 +38,11 @@ main section{
 
 .sidebar a {
   display: block;
-    padding: 10px 20px;
-    color: var(--light);
-    text-decoration: none;
-    font-family: "Rubik";
-    letter-spacing: 2px;
+  padding: 10px 20px;
+  color: var(--light);
+  text-decoration: none;
+  font-family: "Rubik";
+  letter-spacing: 2px;
 }
 
 .sidebar a:hover{
