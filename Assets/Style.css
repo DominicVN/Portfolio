@@ -1,142 +1,122 @@
-:root {
-    --dark: #13293d;
-    --marginbot:10px;
-    --light: #fff;
-  }
-
-  .header {
-    font-family: 'Tangerine', serif;
-    color: #aaaaaa;
-    font-size: 48px;
-  }
-  
-  body {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
-    background-color: #111;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: var(--marginbot);
-  }
-
-  .avatar {
-    vertical-align: middle;
-    width: 65px;
-    height: 65px;
-    border-radius: 65%;
-  }
-
-  .products {
-  margin-left: 250px;
-  margin-right: 20px;
+* {
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
 }
-  
-   .about {
-    font-size: 1.5rem;
-    color: #aaaaaa;
-    margin-left: 50px;
-    margin-right: 505px;
-    text-align: left;
-    font-family: 'Tangerine', serif;
-    margin-top: 20px;
-    font-size: 35px;
-  }
 
-  .products p {
-    font-size: 1rem;
-    color: #aaaaaa;
-    margin-left: 50px;
-    margin-top: -2px;
+main section{
+  gap: 10px;
+  align-self: auto;
+}
+
+.body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 100%;
+}
+
+.sidebar {
+  display: block;
+  text-align: center;
+  position: fixed;
+}
+
+.sidebar h1{
+    text-align: center;
     font-family: "rubik";
-    font-size: 20px;
-  }
-  
-  header {
-    padding: 40px;
-    text-align: center;
-    background: #111;
-  }
+    margin-top: 50px;
+}
 
-  body{
-    margin: 0;
- }
- 
- .sidebar{
-    position: fixed;
-    width: 250px;
-    top:0;
-    left: 0;
-    bottom: 0;
-    background: #111;
-    padding-top: 50px;
- }
- 
- .sidebar h1{
-    display: block;
+.avatar {
+  vertical-align: middle;
+  width: 65px;
+  height: 65px;
+  border-radius: 65%;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  display: block;
     padding: 10px 20px;
-    color: #acacac;
-    text-decoration: none;
-    font-family: "Rubik";
-    letter-spacing: 2px;
-    font-weight: 400;
-    margin: 0;
-    font-size: 25px;
-    text-transform: uppercase;
- }
- 
- .sidebar a{
-    display: block;
-    padding: 10px 20px;
-    color: #aaaaaa;
-    text-decoration: none;
-    font-family: "Rubik";
-    letter-spacing: 2px;
- }
- 
- .sidebar a:hover{
-    color: #fff;
-    margin-left: 20px;
-    transition: 0.4s;
- }
- 
- 
-  
-  nav a {
-    color: var(--dark);
-    padding: 14px 20px;
-    text-align: center;
-  }
-  
-  nav a:hover {
-    background-color: var(--light);
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  footer {
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    text-align: center;
-    background: #111;
     color: var(--light);
-    margin-top: auto;
-  }
-  
-  
-  
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-  }
+    text-decoration: none;
+    font-family: "Rubik";
+    letter-spacing: 2px;
+}
+
+.sidebar a:hover{
+  color: slateblue;
+  margin-left: 0px;
+  transition: 0.4s;
+}
+
+main {
+  height: auto;
+  width: auto;
+  margin-left: 120px;
+}
+
+.header{
+  background: linear-gradient(90deg, #1900ff 0%, #00ffff 80%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "rubik";
+  font-style: oblique;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-right: 50px;
+  font-size: 70px;
+  text-decoration: underline skyblue;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0px 16px;
+  font-family: "rubik";
+}
+
+.container div {
+  border: solid;
+  border-radius: 10px;
+  opacity:0.5;
+  transition: 0.3s;
+  background-color: #000653;
+  margin-bottom: 100px;
+}
+
+.container div:hover {
+  opacity:1;
+}
+
+.container div a {
+  height: 0px;
+}
+
+.container .about {
+  opacity: 1;
+  border: solid;
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  align-items: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 100px;
+}
+
+.container .about h4 {
+  text-decoration: underline;
+}
+
+.coding {
+  height: auto;
+  width: 640px;
+}
+
+.container img {
+  border-radius: 0px 0px 10px 10px;
+}

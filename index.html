@@ -5,51 +5,70 @@
   <title>DV</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./assets/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   <link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
 </head>
 
-<body>
-  <!-- Header -->
-  <header>
-    <h1 class="header">My name is Dom</h1>
-    <p>
-        
-    </p>
-  </header>
+<body  class="body">
 
-  <!-- Navbar -->
-  <nav>
-    <div class="sidebar">
+  <header>
+    <nav>
+      <div class="sidebar">
         <h1>DV</h1>
         <p> <img src="assets/images/AvatarMaker.png" alt="Avatar" class="avatar"> </p>
-        <a href="">About</a>
-        <a href="">Portfolio</a>
-        <a href="">Gallery</a>
-        <a href="">Service</a>
-        <a href="">Contact</a>
-     </div>
-  </nav>
-
-  <!-- Body -->
-  <main>
-    <!-- Product Cards -->
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  
+  
+  <main >
+    <h1 id="about" class="header">My name is Dom</h1>
     <div class="products">
-      <section class="card">
-        <h2 class="about">About Me</h2>
-        <p>This is where i will put my about info. This is where i will put my about info.</p>
+      <section class="container">
+           <div id="portfolio" class="about">
+               <h4><b>About me</b></h4> 
+               <p>When you change the screen size, the product cards will change layouts
+                so you can view them comfortably no matter how small the screen gets!
+                When you change the screen size, the product cards will change layouts
+                so you can view them comfortably no matter how small the screen gets!
+                When you change the screen size, the product cards will change layouts
+                so you can view them comfortably no matter how small the screen gets!</p> 
+           </div>
+
+           <div id="portfolio">
+               <h4><b>Portfolio</b></h4> 
+               <p>Click to see my previous work!</p> 
+                  <a href="https://dominicvn.github.io/Horiseon/"><img src="Assets/images/Horiseon.PNG" style="width: 100%;"></a>               
+           </div>
+
+             <div id="service" class="coding">
+               <h4><b>Service</b></h4> 
+                <p>Front end web developer</p>
+                  <img src="assets/images/coding.jpg" alt="Avatar" style="width: 100%">                  
+             </div>
+
+           <div id="contact">
+             <h4><b>contact me</b></h4> 
+             <p>Click to contact me</p> 
+                <img src="assets/images/teddy-bear.jpg" alt="Avatar" style="width: 100%">
+               
+           </div>
+
 
       </section>
     </div>
+
+<footer class="footer">
+    <h3>🔥  Created by Dom 🔥</h3>
+</footer>
   </main>
 
-  <!-- Footer -->
-  <footer>
-    <h3>
-
-    </h3>
-  </footer>
 </body>
 
 </html>
